@@ -9,7 +9,9 @@ args = parser.parse_args()
 
 # Use argparse parameter to filter data from API
 if args.city:
-    response = requests.get(f"https://api.openbrewerydb.org/breweries?by_city={args.city}")
+    response = requests.get(
+        f"https://api.openbrewerydb.org/breweries?by_city={args.city}"
+    )
 else:
     response = requests.get("https://api.openbrewerydb.org/breweries")
 
