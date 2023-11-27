@@ -5,6 +5,7 @@ def wyswietl_imiona(imiona):
         for imie in imiona:
             print(imie)
 
+
 # Przykład użycia funkcji:
 lista_imion = ["Anna", "Jan", "Katarzyna", "Tomasz", "Maria"]
 wyswietl_imiona(lista_imion)
